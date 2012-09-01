@@ -10,7 +10,23 @@
 		ECD3463715F284D1002215C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD3463615F284D0002215C9 /* Foundation.framework */; };
 		ECD3463A15F284D1002215C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD3463915F284D1002215C9 /* main.m */; };
 		ECD3463E15F284D1002215C9 /* Kata_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECD3463D15F284D1002215C9 /* Kata_1.1 */; };
+		ECD3464B15F284F9002215C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD3464A15F284F9002215C9 /* SenTestingKit.framework */; };
+		ECD3464D15F284F9002215C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD3464C15F284F9002215C9 /* Cocoa.framework */; };
+		ECD3465715F284F9002215C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECD3465515F284F9002215C9 /* InfoPlist.strings */; };
+		ECD3466415F287D0002215C9 /* BDStringCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD3466315F287D0002215C9 /* BDStringCalculatorTests.m */; };
+		ECD3466715F2884D002215C9 /* BDStringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD3466615F2884D002215C9 /* BDStringCalculator.m */; };
+		ECD3466815F2884D002215C9 /* BDStringCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD3466615F2884D002215C9 /* BDStringCalculator.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD3465F15F28506002215C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD3462915F284D0002215C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD3464815F284F8002215C9;
+			remoteInfo = "Kata 1 Tests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		ECD3463015F284D0002215C9 /* CopyFiles */ = {
@@ -31,6 +47,20 @@
 		ECD3463915F284D1002215C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECD3463C15F284D1002215C9 /* Kata 1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kata 1-Prefix.pch"; sourceTree = "<group>"; };
 		ECD3463D15F284D1002215C9 /* Kata_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Kata_1.1; sourceTree = "<group>"; };
+		ECD3464915F284F8002215C9 /* Kata 1 Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kata 1 Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD3464A15F284F9002215C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECD3464C15F284F9002215C9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		ECD3464F15F284F9002215C9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ECD3465015F284F9002215C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECD3465115F284F9002215C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECD3465415F284F9002215C9 /* Kata 1 Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kata 1 Tests-Info.plist"; sourceTree = "<group>"; };
+		ECD3465615F284F9002215C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECD3465B15F284F9002215C9 /* Kata 1 Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kata 1 Tests-Prefix.pch"; sourceTree = "<group>"; };
+		ECD3466115F28532002215C9 /* Requirements */ = {isa = PBXFileReference; lastKnownFileType = text; path = Requirements; sourceTree = "<group>"; };
+		ECD3466215F287D0002215C9 /* BDStringCalculatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDStringCalculatorTests.h; sourceTree = "<group>"; };
+		ECD3466315F287D0002215C9 /* BDStringCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDStringCalculatorTests.m; sourceTree = "<group>"; };
+		ECD3466515F2884D002215C9 /* BDStringCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDStringCalculator.h; sourceTree = "<group>"; };
+		ECD3466615F2884D002215C9 /* BDStringCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDStringCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +72,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ECD3464515F284F8002215C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3464B15F284F9002215C9 /* SenTestingKit.framework in Frameworks */,
+				ECD3464D15F284F9002215C9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		ECD3462715F284D0002215C9 = {
 			isa = PBXGroup;
 			children = (
+				ECD3466115F28532002215C9 /* Requirements */,
 				ECD3463815F284D1002215C9 /* Kata 1 */,
+				ECD3465215F284F9002215C9 /* Kata 1 Tests */,
 				ECD3463515F284D0002215C9 /* Frameworks */,
 				ECD3463315F284D0002215C9 /* Products */,
 			);
@@ -58,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD3463215F284D0002215C9 /* Kata 1 */,
+				ECD3464915F284F8002215C9 /* Kata 1 Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				ECD3463615F284D0002215C9 /* Foundation.framework */,
+				ECD3464A15F284F9002215C9 /* SenTestingKit.framework */,
+				ECD3464C15F284F9002215C9 /* Cocoa.framework */,
+				ECD3464E15F284F9002215C9 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +121,8 @@
 				ECD3463915F284D1002215C9 /* main.m */,
 				ECD3463D15F284D1002215C9 /* Kata_1.1 */,
 				ECD3463B15F284D1002215C9 /* Supporting Files */,
+				ECD3466515F2884D002215C9 /* BDStringCalculator.h */,
+				ECD3466615F2884D002215C9 /* BDStringCalculator.m */,
 			);
 			path = "Kata 1";
 			sourceTree = "<group>";
@@ -84,6 +131,36 @@
 			isa = PBXGroup;
 			children = (
 				ECD3463C15F284D1002215C9 /* Kata 1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECD3464E15F284F9002215C9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3464F15F284F9002215C9 /* AppKit.framework */,
+				ECD3465015F284F9002215C9 /* CoreData.framework */,
+				ECD3465115F284F9002215C9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ECD3465215F284F9002215C9 /* Kata 1 Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3466215F287D0002215C9 /* BDStringCalculatorTests.h */,
+				ECD3466315F287D0002215C9 /* BDStringCalculatorTests.m */,
+				ECD3465315F284F9002215C9 /* Supporting Files */,
+			);
+			path = "Kata 1 Tests";
+			sourceTree = "<group>";
+		};
+		ECD3465315F284F9002215C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3465415F284F9002215C9 /* Kata 1 Tests-Info.plist */,
+				ECD3465515F284F9002215C9 /* InfoPlist.strings */,
+				ECD3465B15F284F9002215C9 /* Kata 1 Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -102,11 +179,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				ECD3466015F28506002215C9 /* PBXTargetDependency */,
 			);
 			name = "Kata 1";
 			productName = "Kata 1";
 			productReference = ECD3463215F284D0002215C9 /* Kata 1 */;
 			productType = "com.apple.product-type.tool";
+		};
+		ECD3464815F284F8002215C9 /* Kata 1 Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD3465C15F284F9002215C9 /* Build configuration list for PBXNativeTarget "Kata 1 Tests" */;
+			buildPhases = (
+				ECD3464415F284F8002215C9 /* Sources */,
+				ECD3464515F284F8002215C9 /* Frameworks */,
+				ECD3464615F284F8002215C9 /* Resources */,
+				ECD3464715F284F8002215C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kata 1 Tests";
+			productName = "Kata 1 Tests";
+			productReference = ECD3464915F284F8002215C9 /* Kata 1 Tests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -130,9 +226,37 @@
 			projectRoot = "";
 			targets = (
 				ECD3463115F284D0002215C9 /* Kata 1 */,
+				ECD3464815F284F8002215C9 /* Kata 1 Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD3464615F284F8002215C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3465715F284F9002215C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECD3464715F284F8002215C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ECD3462E15F284D0002215C9 /* Sources */ = {
@@ -140,10 +264,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD3463A15F284D1002215C9 /* main.m in Sources */,
+				ECD3466715F2884D002215C9 /* BDStringCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD3464415F284F8002215C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3466415F287D0002215C9 /* BDStringCalculatorTests.m in Sources */,
+				ECD3466815F2884D002215C9 /* BDStringCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD3466015F28506002215C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD3464815F284F8002215C9 /* Kata 1 Tests */;
+			targetProxy = ECD3465F15F28506002215C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD3465515F284F9002215C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD3465615F284F9002215C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ECD3463F15F284D1002215C9 /* Debug */ = {
@@ -213,6 +366,32 @@
 			};
 			name = Release;
 		};
+		ECD3465D15F284F9002215C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kata 1 Tests/Kata 1 Tests-Prefix.pch";
+				INFOPLIST_FILE = "Kata 1 Tests/Kata 1 Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ECD3465E15F284F9002215C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kata 1 Tests/Kata 1 Tests-Prefix.pch";
+				INFOPLIST_FILE = "Kata 1 Tests/Kata 1 Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -230,6 +409,14 @@
 			buildConfigurations = (
 				ECD3464215F284D1002215C9 /* Debug */,
 				ECD3464315F284D1002215C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD3465C15F284F9002215C9 /* Build configuration list for PBXNativeTarget "Kata 1 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD3465D15F284F9002215C9 /* Debug */,
+				ECD3465E15F284F9002215C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

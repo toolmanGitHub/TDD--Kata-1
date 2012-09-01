@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Kata 1 Tests' target in the 'Kata 1 Tests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
